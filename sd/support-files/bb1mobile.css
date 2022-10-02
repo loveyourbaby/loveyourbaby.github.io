@@ -1,0 +1,160 @@
+/* mobilizing BB1 */
+.bb1mobile {
+    padding: 0;
+}
+
+.bb1mobile #PageWrapper {
+    overflow: hidden;
+    background-size: 100%;
+}
+
+.bb1mobile #PageWrapper,
+.bb1mobile #HeaderWrapper,
+.bb1mobile #FooterWrapper,
+.bb1mobile #Header,
+.bb1mobile #Footer {
+    width: 100%;
+    box-sizing: border-box;
+    min-width: 0;
+}
+
+.bb1mobile table#PageWrapper,
+.bb1mobile table#PageWrapper > tbody,
+.bb1mobile table#PageWrapper > tbody > tr,
+.bb1mobile table#ColumnsWrapper,
+.bb1mobile table#ColumnsWrapper > tbody,
+.bb1mobile table#ColumnsWrapper > tbody > tr,
+.bb1mobile td#ContentColumn,
+.bb1mobile td#ContentWrapper,
+.bb1mobile td#ContentWrapper > table,
+.bb1mobile td#ContentWrapper > table > tbody,
+.bb1mobile td#ContentWrapper > table > tbody > tr,
+.bb1mobile table#ContentWrapper,
+.bb1mobile table#ContentWrapper > tbody,
+.bb1mobile table#ContentWrapper > tbody > tr,
+.bb1mobile td#ExtraColumn,
+.bb1mobile td#Header,
+.bb1mobile td#Footer {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bb1mobile #HeaderWrapper {
+    background-size: auto 100%;
+}
+
+.bb1mobile td#NavColumn {
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+}
+
+.bb1mobile td#NavColumn .Liner {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.bb1mobile td#NavColumn .Liner * {
+    display: none !important;
+}
+
+.bb1mobile td#NavColumn .Liner  .Navigation,
+.bb1mobile td#NavColumn .Liner  .Navigation * {
+    display: block !important;
+}
+
+.bb1mobile td#NavColumn .Liner > ins {
+    display: inline-table !important;
+}
+
+.bb1mobile td#NavColumn .Liner > ins * {
+    display: block !important;
+}
+
+.bb1mobile td#NavColumn,
+.bb1mobile td#ContentColumn,
+.bb1mobile td#ExtraColumn,
+.bb1mobile td#NavColumn .Liner,
+.bb1mobile td#ContentColumn .Liner,
+.bb1mobile td#ExtraColumn .Liner {
+    min-height: 0 !important;
+    margin-top: 0;
+}
+
+.bb1mobile #Header .Liner {
+    background-size: 100%;
+    height: auto !important;
+}
+
+.bb1mobile td#ContentColumn .Liner {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.bb1mobile td#ExtraColumn .Liner {
+    position: relative;
+}
+
+.bb1mobile #Footer .Liner {
+    background-size: 100%;
+}
+
+.bb1mobile .socializeIt,
+.bb1mobile .socializeIt img,
+.bb1mobile .socializeIt textarea {
+    width: 100% !important;
+}
+
+.bb1mobile .socializeIt-2 > tbody > tr:first-child > td {
+    width: 45%;
+}
+
+.bb1mobile .socializeIt-2 > tbody > tr:first-child > td:first-child {
+    width: 10%;
+}
+
+.bb1mobile table#PageWrapper img {
+    max-width: 100% !important;
+    height: auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bb1mobile .fb_iframe_widget,
+.bb1mobile .fb_iframe_widget > span,
+.bb1mobile iframe,
+.bb1mobile object,
+.bb1mobile embed {
+    max-width: 100% !important;
+}
+
+.bb1mobile td#NavColumn .Navigation.NavigationHidden * {
+    display: none !important;
+}
+
+.bb1mobile td#NavColumn .Navigation.NavigationHidden .mobileNavButtonWrapper {
+    display: block !important;
+}
+
+.bb1mobile .mobileNavButtonWrapper {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.bb1mobile td#NavColumn .Navigation .mobileNavButton {
+    display: inline-block !important;
+    padding: 0.2em 0.6em;
+    border: 1px solid #000;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+}
+
+.bb1mobile .mobileNavButton:hover {
+    background: #ccc;
+}
