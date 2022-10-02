@@ -1,0 +1,91 @@
+# loveyourbaby.com (Thu Jul 21 13:52:17 2022)
+
+Sitemap: https://www.loveyourbaby.com/iXoy0UEw.xml
+
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /bin/
+Disallow: /dyn/
+Disallow: /objects/
+Disallow: /help/
+Disallow: /no-such-url.html
+Disallow: /fb/channel.html
+Disallow: /*.pdf$
+
+User-agent: Googlebot
+Disallow: /cgi-bin/
+Disallow: /dyn/
+Disallow: /help/
+Disallow: /no-such-url.html
+Disallow: /fb/channel.html
+Disallow: /*.pdf$
+
+User-Agent: Googlebot-Mobile
+Disallow: /cgi-bin/
+Disallow: /bin/
+Disallow: /dyn/
+Disallow: /help/
+Disallow: /no-such-url.html
+Disallow: /fb/channel.html
+Disallow: /*.pdf$
+
+User-Agent: Googlebot-Image
+Disallow: /cgi-bin/
+Disallow: /bin/
+Disallow: /dyn/
+Disallow: /help/
+Disallow: /no-such-url.html
+Disallow: /fb/channel.html
+Disallow: /*.pdf$
+
+User-agent: Mediapartners-Google
+Disallow: /cgi-bin/
+Disallow: /bin/
+Disallow: /dyn/
+Disallow: /help/
+Disallow: /fb/channel.html
+Disallow: /no-such-url.html
+Disallow: /*.pdf$
+
+User-agent: bingbot
+Disallow: /cgi-bin/
+Disallow: /bin/
+Disallow: /dyn/
+Disallow: /objects/
+Disallow: /help/
+Disallow: /no-such-url.html
+Disallow: /fb/channel.html
+Disallow: /*.pdf$
+Crawl-delay: 30
+
+User-agent: msnbot
+Disallow: /cgi-bin/
+Disallow: /bin/
+Disallow: /dyn/
+Disallow: /objects/
+Disallow: /help/
+Disallow: /no-such-url.html
+Disallow: /fb/channel.html
+Disallow: /*.pdf$
+Crawl-delay: 30
+
+User-agent: Slurp
+Disallow: /cgi-bin/
+Disallow: /bin/
+Disallow: /dyn/
+Disallow: /objects/
+Disallow: /help/
+Disallow: /no-such-url.html
+Disallow: /fb/channel.html
+Disallow: /*.pdf$
+
+User-agent: Mozilla/5.0 (compatible;contxbot/1.0)
+Disallow: /cgi-bin/
+Disallow: /bin/
+Disallow: /dyn/
+Disallow: /objects/
+Disallow: /help/
+Disallow: /no-such-url.html
+Disallow: /fb/channel.html
+Disallow: /*.pdf$
+Crawl-delay: 30
